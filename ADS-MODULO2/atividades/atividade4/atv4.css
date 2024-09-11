@@ -1,0 +1,39 @@
+body{
+
+    background-color: rgb(153, 76, 76);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.verif{
+
+    color: white;
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+button{
+
+    border: 0;
+    border-radius: 7px;
+    margin-top: 8px;
+
+}
+
+input{
+
+    margin-top: 5px;
+    border: 0;
+    border-radius: 7px;
+
+}

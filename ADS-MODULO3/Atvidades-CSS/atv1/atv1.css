@@ -1,0 +1,77 @@
+.txt{
+
+    @font-face {
+        font-family: ;
+        src: url(font-family);
+    }
+
+    background-color: green;
+
+    font-weight: 900;
+    color: yellow;
+
+}
+
+.a1{
+
+    background-color: rgb(175, 175, 245);
+    height: 150px;
+
+}
+
+.a2{
+    
+    background-image: url(Doge.jpg);
+    height: 1000px;
+    width: 1000px;
+    background-size: 30%;
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: scroll;
+
+}
+
+.txt2{
+
+    background-color: rgb(152, 255, 152);
+
+}
+
+.a3{
+
+    background-image: url(Doge.jpg);
+    height: 1000px;
+    width: 1000px;
+    background-size: 10%;
+    background-repeat: repeat-y;
+
+}
+
+.a4{
+
+    display: flex;
+    left: 150px;
+    background-image: url(Doge.jpg);
+    height: 1000px;
+    width: 1000px;
+    background-size: 80%;
+    background-repeat: no-repeat;
+
+}
+
+.a5{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+    left: 3500px;
+
+    background-image: url(Doge.jpg);
+    background-repeat: no-repeat;
+    height: 1300px;
+    width: 1300px;
+
+
+}

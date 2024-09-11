@@ -1,0 +1,29 @@
+.div1{
+
+    background-color: rgb(204, 204, 204);
+    max-width: 15vw;
+    padding: 30px;
+    
+    border-radius: 15px;
+
+    position: relative;
+    top: 300px;
+    left: 800px;
+
+}
+
+button{
+
+    border: 0;
+    border-radius: 15px;
+
+    position: relative;
+    left: 120px;
+
+}
+h1{
+
+    position: relative;
+    left: 10px;
+
+}

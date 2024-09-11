@@ -1,0 +1,14 @@
+body{
+
+    background-color: bisque;
+
+}
+
+.amogus{
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+}
