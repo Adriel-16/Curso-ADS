@@ -1,3 +1,9 @@
+body{
+
+    background-color: rgba(255, 255, 0, 0.363)
+
+}
+
 .txt{
 
     @font-face {
@@ -61,17 +67,25 @@
 
 .a5{
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    position: relative;
-    left: 3500px;
 
+    position: relative;
+    left: 45%;
+    top: 50%;
     background-image: url(Doge.jpg);
     background-repeat: no-repeat;
     height: 1300px;
     width: 1300px;
 
+
+}
+
+.a6{
+
+    background-image: url(Doge.jpg);
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 1000px;
+    left: 45%;
+    position: sticky;
 
 }
