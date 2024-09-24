@@ -1,0 +1,42 @@
+.cabeca{
+   
+    text-align: left;
+    font-size: large;
+
+}
+
+.container{
+
+    width: 97vw;
+    display: flex;
+    column-gap: 2vw;
+}
+.datafolha{
+
+    width: 50vw;
+
+}
+.mais{
+
+    width:  40vw;
+
+}
+.container2{
+
+    width: 97vw;
+    display: flex;
+    column-gap: 2vw;
+
+}
+
+.politica{
+
+    width: 43vw;
+
+}
+.container3{
+
+    display: flex;
+    column-gap: 2vw;
+
+}
