@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="f2.css">
     <title>formulario 2</title>
 </head>
-<header>
-
-
-
-</header>
-
 <body>
     <div class="container">
     
@@ -33,6 +26,83 @@
             </div>
         </div>
 
+        <div class="stats">
+            <label class="status">Status</label>
+            <select class="atividade">
+                <option value="op1">Ativo</option>
+                <option value="op2">Inativo</option>
+            </select>
+        </div>
+
+        <div class="Type">
+            <label class="tipo">Tipo</label>
+            <div class="form">
+                <form>
+                    <label>
+                        <input type="radio" id="ti" name="pessoas" value="tecnico">Técnico
+                    </label>
+                    <label>
+                        <input type="radio" id="prof" name="pessoas" value="Professor">Professor
+                    </label>
+                    <label>
+                        <input type="radio" id="aluno" name="pessoas" value="Aluno">Aluno
+                    </label>
+                </form>
+            </div>
+        </div>
+
+        <div class="data">
+            <label class="date">Data</label>
+            <input type="date" class="DAta">
+        </div>
+
+        <div class="perfil">
+            <label>Perfil</label>
+            <div class="Perfil">
+                <form>
+                    <label>
+                        <input type="radio" id="convidado" name="perf" value="Convidado">Convidado
+                    </label>
+                    <label>
+                        <input type="radio" id="ADM" name="perf" value="Aministrador">Administrados
+                    </label>
+                </form>
+            </div>
+        </div>
+
+        <div class="OBS">
+            <div class="la">
+                <label>Observações</label>
+            </div>
+            <div class="txta">
+                <textarea name="textarea" id="TXT" style="width: 15vw; height: 10vh;">escreva aqui</textarea>
+            </div>
+        </div>
+
+        <div class="mod">
+            <div class="LA">
+                <label>Módulos</label>
+            </div>
+            <div class="selecione1">
+                <input type="checkbox" id="op1">
+                <label for="op1">Compras</label>
+                <input type="checkbox" id="op2">
+                <label for="op2">Biblioteca</label>
+                <input type="checkbox" id="op3">
+                <label for="op3">Acadêmico</label>
+            </div>
+            <div class="selecione2">
+                <input type="checkbox" id="op1">
+                <label for="op1">Documentação</label>
+                <input type="checkbox" id="op2">
+                <label for="op2">Recursos Humanos</label>
+            </div>
+        </div>
+        
+        <div class="escolha">
+            <button>Cadastrar</button>
+            <button>Excluir</button>
+        </div>
     </div>
 
 </body>
