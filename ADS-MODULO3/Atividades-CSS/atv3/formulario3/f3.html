@@ -8,26 +8,144 @@
 </head>
 <body>
     <div class="container">
+
         <label class="cad">Cadastro geral</label>
         
         <div class="container2">
-            
 
             <div class="Dados">
-               <p class="Nome">Dados Pessoais</p>
-                <table>
+                <p class="Nome">Dados Pessoais</p>
+                <table class="tabela1">
                     <tr>
-                        <td>
-                            <label">Nome completo:</label>
-                        </td>
+                        <th><label">Nome completo:</label></th>
+                    </tr>
+                    <tr>
                         <td><input type="text"></td>
                     </tr>
-
+                </table>
+                <table class="tabela2">
+                    <tr>
+                        <th>Profissão:</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input list="profissao" id="selecione" name="lista_profissoes" placeholder="Sua Profissão">
+                            <datalist id="profissao">
+                                <option>opcao1</option>
+                                <option>opcao2</option>
+                                <option>opcao3</option>
+                                <option>opcao4</option>
+                            </datalist>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="local">
+                <p class="local1">Localização</p>
+                <table>
+                    <tr><th><label>Email:</label></th></tr>
+                    <tr><td><input type="text"></td></tr>
+                    <tr><th><label>Rua:</label></th></tr>
+                    <tr><td><input type="text"></td></tr>
                 </table>
             </div>
 
-        </div>
+            <div class="faixa">
+                <p class="faixa1">Faixa etária</p>
+                <div class="idade1">
+                    <table>
+                        <tr>
+                            <td>
+                                <label><input type="radio" id="20a" name="idade" value="20anos">Até 20 anos</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><input type="radio" id="30a" name="idade" value="30anos">De 20 a 30 anos</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><input type="radio" id="40a" name="idade" value="40anos">De 30 a 40 anos</label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+    
+                <div class="idade2">
+                    <table>
+                        <tr>
+                            <td>
+                                <label><input type="radio" id="50a" name="idade" value="50anos">De 40 a 50 anos</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                            <label><input type="radio" id="60a" name="idade" value="60anos">De 50 a 60 anos</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label><input type="radio" id="70a" name="idade" value="70anos">De 60 a 70 anos</label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
 
+            <div class="esportes_pratica">
+                <p class="pratica">Esportes que prática</p>
+                <div class="pratica2">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="esporte1">
+                                <label for="esporte1">Futebol de campo</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="esporte2">
+                                <label for="esporte2">Futebol de salão</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="esporte3">
+                                <label for="esporte3">Futebol Society</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="esporte4">
+                                <label for="esporte4">Volley de quadra</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="esporte5">
+                                <label for="esporte5">Volley de praia</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="esporte6">
+                                <label for="esporte6">Natação em piscina</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="esporte7">
+                                <label for="esporte7">Natação em mar aberto</label>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </div>
     </div>
+
+
 </body>
 </html>

@@ -5,53 +5,149 @@ body{
     justify-content: center;
 
 }
-.container{
 
+th, td {
+    padding: 2px;
+    text-align: left;
+}
+
+.container{
+    border: solid 1px green;
     background-color: rgba(0, 175, 0, 0.301);
-    height: 94vh;
+    height: 97vh;
     width: 50vw;
 
     & .cad{
 
-        border: solid 1px;
+        border: solid 1px black;
         background-color: white;
+        color: green;
         position: relative;
         left: 20%;
-        top: 3%;
+        top: 2%;
 
     }
     
-
 }
+
 .container2{
 
+    color: green;
     height: 30vh;
-    margin-top: 2%;
+    margin-top: 0.5%;
     margin-left: 18%;
     margin-right: 5%;
     padding: 15%;
-    border-color: black;
-    border: solid 1px;
+    border: solid 1px black;
 
+    & .Dados{
+
+        height: 22vh;
+        width: 17vw;
+        border: solid 1px black;
+        position: relative;
+        margin-left: -25%;
+        top: -40%;
+
+        & .Nome{
+
+            border: solid 1px;
+            background-color: white;
+            position: relative;
+            margin-left: 10px;
+            margin-top: -10px;
+        
+            width: 100px;
+        
+        }        
+    }
+
+    & .local{
+        
+        height: 22vh;
+        width: 17vw;
+        border: solid 1px black;
+        position: relative;
+        left: 50%;
+        top: -114%;
+
+        & .local1{
+
+            border: solid 1px;
+            background-color: white;
+            position: relative;
+            margin-left: 1vw;
+            margin-top: -1.5vh;
+            width: 6vw;
+
+        }
+    }
+
+    & .faixa{
+        display: flex;
+        border: solid 1px black;
+        width: 34.6vw;
+        height: 16vh;
+        position: relative;
+        margin-top: -31vh;
+        margin-left: -5.9vw;
+
+        & .idade1{
+
+            position: relative;
+            margin-top: 2vh;
+            margin-left: -6vw;
+
+        }
+
+        & .idade2{
+
+            position: relative;
+            margin-top: 2vh;
+            margin-left: 4vw;
+
+        }
+        & .faixa1{
+
+            width: 80px;
+            height: 20px;
+            border: solid 1px;
+            background-color: white;
+            position: relative;
+            margin-left: 1vw;
+            margin-top: -2vh;
+            
+        }
+    }
+
+    & .esportes_pratica{
+
+        border: solid 1px black;
+        margin-top: 3vh;
+
+        & .pratica2{
+
+            line-height: 1;
+            padding: 0%;
+            margin: 0%;
+            font-size: small;
+
+            position: relative;
+            margin-top: -2vh;
+
+        }
+        & .pratica{
+
+            border: solid 1px black;
+            background-color: white;
+            width: 10vw;
+
+            position: relative;
+            margin-top: -1.5vh;
+            margin-left: 1.5vw;
+
+        }
+
+    }
 }
 
-.Dados{
-
-    border: solid 1px;
-    position: relative;
-    left: -25%;
-    top: -40%;
-
-}
-
-.Nome{
-
-    border: solid 1px;
-    background-color: white;
-    position: relative;
-    margin-left: 10px;
-    margin-top: -10px;
-
-    width: 100px;
-
-}
