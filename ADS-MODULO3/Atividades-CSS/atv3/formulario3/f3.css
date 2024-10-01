@@ -12,6 +12,10 @@ th, td {
 }
 
 .container{
+    background-image: url(gato.jpg);
+    background-repeat: no-repeat;
+    background-size: 13%;
+    background-position: 2% 3%;
     border: solid 1px green;
     background-color: rgba(0, 175, 0, 0.301);
     height: 97vh;
@@ -28,6 +32,18 @@ th, td {
 
     }
     
+    & .coment2{
+
+        color: green;
+        background-color: white;
+        border: solid 1px black;
+        width: 80px;
+
+        position: relative;
+        margin-left: 20%;
+        top: -0.01%;
+        margin-top: 1%;
+    }
 }
 
 .container2{
@@ -42,12 +58,18 @@ th, td {
 
     & .Dados{
 
-        height: 22vh;
+        height: 18vh;
         width: 17vw;
         border: solid 1px black;
         position: relative;
         margin-left: -25%;
         top: -40%;
+
+        background-image: url(gato.jpg);
+        background-repeat: no-repeat;
+        background-size: 45%;
+        background-position: 80%;
+
 
         & .Nome{
 
@@ -64,20 +86,25 @@ th, td {
 
     & .local{
         
-        height: 22vh;
+        height: 18vh;
         width: 17vw;
         border: solid 1px black;
         position: relative;
-        left: 50%;
-        top: -114%;
+        margin-top: -30.3vh;
+        margin-left: 12vw;
+
+        background-image: url(gato.jpg);
+        background-repeat: no-repeat;
+        background-size: 45%;
+        background-position: 80%;
 
         & .local1{
 
             border: solid 1px;
             background-color: white;
             position: relative;
-            margin-left: 1vw;
-            margin-top: -1.5vh;
+            margin-left: 10px;
+            margin-top: -10px;
             width: 6vw;
 
         }
@@ -86,17 +113,23 @@ th, td {
     & .faixa{
         display: flex;
         border: solid 1px black;
-        width: 34.6vw;
-        height: 16vh;
+        width: 34.9vw;
+        height: 12vh;
         position: relative;
-        margin-top: -31vh;
+        margin-top: 2vh;
         margin-left: -5.9vw;
+
+        background-image: url(gato.jpg);
+        background-repeat: no-repeat;
+        background-size: 15%;
+        background-position: 75%;
+
 
         & .idade1{
 
             position: relative;
             margin-top: 2vh;
-            margin-left: -6vw;
+            margin-left: -2vw;
 
         }
 
@@ -104,7 +137,7 @@ th, td {
 
             position: relative;
             margin-top: 2vh;
-            margin-left: 4vw;
+            margin-left: 8vw;
 
         }
         & .faixa1{
@@ -114,8 +147,8 @@ th, td {
             border: solid 1px;
             background-color: white;
             position: relative;
-            margin-left: 1vw;
-            margin-top: -2vh;
+            margin-left: 10px;
+            margin-top: -10px;
             
         }
     }
@@ -124,6 +157,14 @@ th, td {
 
         border: solid 1px black;
         margin-top: 3vh;
+        margin-left: -5.9vw;
+        width: 34.9vw;
+
+        background-image: url(gato.jpg);
+        background-repeat: no-repeat;
+        background-size: 25%;
+        background-position: 75%;
+
 
         & .pratica2{
 
@@ -144,10 +185,48 @@ th, td {
 
             position: relative;
             margin-top: -1.5vh;
-            margin-left: 1.5vw;
+            margin-left: 0.5vw;
 
         }
 
     }
 }
+.container3{
 
+    color: green;
+    height: 25vh;
+    margin-top: -3%;
+    margin-left: 18%;
+    margin-right: 5%;
+    border: solid 1px black;
+    
+    background-image: url(gato.jpg);
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 95%;
+
+    & .comentario{
+
+        width: 4vw;
+        position: relative;    
+        margin-left: 3vw;
+        margin-top: 3vh;
+
+    }
+
+    & .comentario2{
+
+        position: relative;
+        margin-left: 3vw;
+
+    }
+    
+}
+
+.botao{
+
+    position: relative;
+    margin-left: 9vw;
+    margin-top: 1vh;
+
+}

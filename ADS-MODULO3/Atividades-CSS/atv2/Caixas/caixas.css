@@ -14,8 +14,8 @@
     width: 500px;
     height: 500px;
     position: relative;
-    left: -27.2vw;
-    top: 80vh;
+    margin-left: -19.3vw;
+    margin-top: 85vh;
 }
 
 .amarela{
@@ -35,8 +35,8 @@
     width: 500px;
     height: 500px;
     position: relative;
-    left: 81.5vw;
-    top: 0.5vh;
+    margin-left: 85vw;
+    margin-top: 0.5vh;
           
 }
 
