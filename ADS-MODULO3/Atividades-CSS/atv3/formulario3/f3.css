@@ -1,4 +1,4 @@
-body{
+body {
 
     display: flex;
     align-items: center;
@@ -6,12 +6,13 @@ body{
 
 }
 
-th, td {
+th,
+td {
     padding: 2px;
     text-align: left;
 }
 
-.container{
+.container {
     background-image: url(gato.jpg);
     background-repeat: no-repeat;
     background-size: 13%;
@@ -21,7 +22,7 @@ th, td {
     height: 97vh;
     width: 50vw;
 
-    & .cad{
+    & .cad {
 
         border: solid 1px black;
         background-color: white;
@@ -31,8 +32,8 @@ th, td {
         top: 2%;
 
     }
-    
-    & .coment2{
+
+    & .coment2 {
 
         color: green;
         background-color: white;
@@ -46,7 +47,7 @@ th, td {
     }
 }
 
-.container2{
+.container2 {
 
     color: green;
     height: 30vh;
@@ -56,7 +57,7 @@ th, td {
     padding: 15%;
     border: solid 1px black;
 
-    & .Dados{
+    & .Dados {
 
         height: 18vh;
         width: 17vw;
@@ -71,21 +72,21 @@ th, td {
         background-position: 80%;
 
 
-        & .Nome{
+        & .Nome {
 
             border: solid 1px;
             background-color: white;
             position: relative;
             margin-left: 10px;
             margin-top: -10px;
-        
+
             width: 100px;
-        
-        }        
+
+        }
     }
 
-    & .local{
-        
+    & .local {
+
         height: 18vh;
         width: 17vw;
         border: solid 1px black;
@@ -98,7 +99,7 @@ th, td {
         background-size: 45%;
         background-position: 80%;
 
-        & .local1{
+        & .local1 {
 
             border: solid 1px;
             background-color: white;
@@ -110,7 +111,7 @@ th, td {
         }
     }
 
-    & .faixa{
+    & .faixa {
         display: flex;
         border: solid 1px black;
         width: 34.9vw;
@@ -125,7 +126,7 @@ th, td {
         background-position: 75%;
 
 
-        & .idade1{
+        & .idade1 {
 
             position: relative;
             margin-top: 2vh;
@@ -133,14 +134,15 @@ th, td {
 
         }
 
-        & .idade2{
+        & .idade2 {
 
             position: relative;
             margin-top: 2vh;
             margin-left: 8vw;
 
         }
-        & .faixa1{
+
+        & .faixa1 {
 
             width: 80px;
             height: 20px;
@@ -149,11 +151,11 @@ th, td {
             position: relative;
             margin-left: 10px;
             margin-top: -10px;
-            
+
         }
     }
 
-    & .esportes_pratica{
+    & .esportes_pratica {
 
         border: solid 1px black;
         margin-top: 3vh;
@@ -166,7 +168,7 @@ th, td {
         background-position: 75%;
 
 
-        & .pratica2{
+        & .pratica2 {
 
             line-height: 1;
             padding: 0%;
@@ -177,7 +179,8 @@ th, td {
             margin-top: -2vh;
 
         }
-        & .pratica{
+
+        & .pratica {
 
             border: solid 1px black;
             background-color: white;
@@ -191,7 +194,8 @@ th, td {
 
     }
 }
-.container3{
+
+.container3 {
 
     color: green;
     height: 25vh;
@@ -199,31 +203,31 @@ th, td {
     margin-left: 18%;
     margin-right: 5%;
     border: solid 1px black;
-    
+
     background-image: url(gato.jpg);
     background-repeat: no-repeat;
     background-size: 30%;
     background-position: 95%;
 
-    & .comentario{
+    & .comentario {
 
         width: 4vw;
-        position: relative;    
+        position: relative;
         margin-left: 3vw;
         margin-top: 3vh;
 
     }
 
-    & .comentario2{
+    & .comentario2 {
 
         position: relative;
         margin-left: 3vw;
 
     }
-    
+
 }
 
-.botao{
+.botao {
 
     position: relative;
     margin-left: 9vw;
