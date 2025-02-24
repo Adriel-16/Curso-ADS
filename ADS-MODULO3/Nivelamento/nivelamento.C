@@ -12,9 +12,9 @@ double soma(){
 
     float resultado = A + B;
 
-    printf("O resultado da soma e: %.5f\n", resultado);
+    printf("O resultado da soma e:
+} %.5f\n", resultado);
     return resultado;
-}
 
 double subtracao(){
 

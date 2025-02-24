@@ -1,0 +1,11 @@
+Regra de negócio
+
+* Definição: Regras de negócio são diretrizes ou condições que determinam como os processos de uma organização devem ser executados ou como as informações devem ser tratadas.
+
+* Objetivo: O objetivo das regras de negócio é garantir consistência, eficiência, padronização e conformidade nos processos e decisões de uma organização.
+
+* Estrutura: A estrutura de uma regra de negócio geralmente envolve:
+
+Condição: Situação ou contexto que ativa a regra.
+Ação: O que deve ser feito quando a condição é atendida.
+Exceções: Situações em que a regra não se aplica ou é alterada.
